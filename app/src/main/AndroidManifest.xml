@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kent.hyperdeals">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hyperdealslogofinal"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".NavigationBar.DashboardActivity"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NavigationOptionsActivity.Profile"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".NavigationOptionsActivity.Notifications" />
+        <!-- <activity android:name=".FragmentActivities.FragmentProMapList" /> -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCq7iQPkshrFBsA3bJlpZXAzIAEgjPp1sg" />
+
+        <!--
+            <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBY_pKZmt_1z5dmnK8oKtg7UYWJz-qOwA4" />
+        -->
+
+
+        <!-- yoyo api: AIzaSyCq7iQPkshrFBsA3bJlpZXAzIAEgjPp1sg -->
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".RegistrationActivityBusinessMan" />
+        <activity android:name=".LoginActivityBusinessman" />
+        <activity
+            android:name=".NavigationBar.DashboardActivityBusinessman"
+            android:label="@string/title_activity_dashboard_businessman"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NavigationBar.DrawerActivityBusinessman"
+            android:label="@string/title_activity_drawer_businessman"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".BusinessActivities.AddPromo" />
+        <activity android:name=".Promo_Detail" />
+        <activity android:name=".BusinessActivities.Reach"></activity>
+    </application>
+
+</manifest>

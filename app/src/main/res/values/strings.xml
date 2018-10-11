@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Hyper Deals</string>
+    <string name="title_activity_main2">FragmentMain</string>
+    <string name="tab_text1">Category</string>
+    <string name="tab_text2">ProMap</string>
+    <string name="tab_text3">ProMap List</string>
+    <string name="tab_text_4">Four</string>
+    <string name="tab_text_5">Five</string>
+    <string name="tab_text_6">Six</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_profile">Profile</string>
+
+
+    <string name="hyper_profile">Hyper Profile</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_dashboard_businessman">DashboardActivityBusinessman</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="title_activity_drawer_businessman">DrawerActivityBusinessman</string>
+
+    <string name="interested"> people are interested</string>
+    <string name="viewed"> views</string>
+    <string name="dismissed"> dismissed</string>
+    <string name="sent"> people have received</string>
+
+</resources>

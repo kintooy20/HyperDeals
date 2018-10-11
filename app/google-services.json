@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "639208212877",
+    "firebase_url": "https://hyperdeal-93098.firebaseio.com",
+    "project_id": "hyperdeal-93098",
+    "storage_bucket": "hyperdeal-93098.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639208212877:android:62bc6ec203034aa7",
+        "android_client_info": {
+          "package_name": "com.example.kent.hyperdeals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639208212877-ke1fqtu1rva12flva2r01khg8etj5vgd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kent.hyperdeals",
+            "certificate_hash": "38df440c12d136041614263691eead1819ccf2d1"
+          }
+        },
+        {
+          "client_id": "639208212877-5rt2s7nei1m9qdsfmn1thg13m5pe3ssb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOLYybSqa9sx-Kq9pVGDeFewByI7E26gE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639208212877-5rt2s7nei1m9qdsfmn1thg13m5pe3ssb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

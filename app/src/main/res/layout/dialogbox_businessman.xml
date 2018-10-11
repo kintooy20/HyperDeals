@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="280dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="#ffffff"
+    android:layout_marginStart="20dp"
+    android:id="@+id/specificPromoContainer"
+    android:layout_marginEnd="20dp"
+    android:padding="5dp">
+
+
+    <ImageView
+        android:id="@+id/reachPromoPicture"
+        android:layout_width="109dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/bench"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ImageView
+        android:id="@+id/reachPromoDismissed"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/dismissed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reachPromoViewed" />
+
+    <ImageView
+        android:id="@+id/reachPromoViewed"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/viewed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reachPromoInterested" />
+
+    <ImageView
+        android:id="@+id/reachPromoInterested"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/interested"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reachPromoPicture" />
+
+    <ImageView
+        android:id="@+id/reachPromoSent"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/sent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reachPromoDismissed" />
+
+    <TextView
+        android:id="@+id/tvInterested"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/reachPromoInterested"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/reachPromoInterested"
+        app:layout_constraintTop_toTopOf="@+id/reachPromoInterested" />
+
+    <TextView
+        android:id="@+id/tvViewed"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/reachPromoViewed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/reachPromoViewed"
+        app:layout_constraintTop_toTopOf="@+id/reachPromoViewed" />
+
+    <TextView
+        android:id="@+id/tvDismssed"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/reachPromoDismissed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/reachPromoDismissed"
+        app:layout_constraintTop_toTopOf="@+id/reachPromoDismissed" />
+
+    <TextView
+        android:id="@+id/tvSent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/reachPromoSent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/reachPromoSent"
+        app:layout_constraintTop_toTopOf="@+id/reachPromoSent" />
+
+    <TextView
+        android:id="@+id/tvPromoNameBusinessman"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:textColor="#68a8e3"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/tvPromoLocationBusinessman"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/reachPromoPicture"
+        app:layout_constraintTop_toTopOf="@+id/reachPromoPicture" />
+
+    <TextView
+        android:id="@+id/tvPromoLocationBusinessman"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:text="TextView"
+        android:textColor="#228B22"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/reachPromoPicture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/reachPromoPicture" />
+</android.support.constraint.ConstraintLayout>
